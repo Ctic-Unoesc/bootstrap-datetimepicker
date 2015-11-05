@@ -896,7 +896,7 @@
       var year, month, date, hours, minutes, seconds, milliseconds;
       year = parsed.UTCFullYear;
       if (parsed.UTCYear) year = 2000 + parsed.UTCYear;
-      if (!year) year = 1970;
+      if (!year) year = 1900;
       if (parsed.UTCMonth) month = parsed.UTCMonth - 1;
       else month = 0;
       date = parsed.UTCDate || 1;
